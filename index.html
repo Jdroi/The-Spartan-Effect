@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Matthew Sowder">
+    <title>The Spartan Effect</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+  <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+
+    <div class="pimg1">
+      <div class="ptext">
+        <span class="border">
+          The Spartan Effect
+        </span>
+      </div>
+    </div>
+
+    <section class="section section-light">
+      <h2>Section One</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, laudantium aliquid! Veritatis nesciunt obcaecati earum. Officiis officia eum nostrum ducimus sequi vel ullam eligendi quia vero, eos voluptas quasi est, quis harum ea at doloribus odit laudantium amet libero iure culpa quos impedit nihil! Aliquid iure maiores veniam, itaque cumque voluptatibus laboriosam vitae iste optio doloremque adipisci quasi reprehenderit omnis quas, culpa facere exercitationem tempore quod eveniet veritatis, delectus error maxime. Natus impedit optio placeat incidunt, nesciunt iure! Voluptatibus reiciendis et neque sunt, minus, consequuntur veritatis delectus nisi porro officia suscipit magni maxime officiis reprehenderit quos iure aliquid illum vitae.
+      </p>
+    </section>
+    
+    <div class="pimg2">
+      <div class="ptext">
+        <span class="border trans">
+          Image Two Text
+        </span>
+      </div>
+    </div>
+
+    <section class="section section-dark">
+      <h2>Section Two</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, laudantium aliquid! Veritatis nesciunt obcaecati earum. Officiis officia eum nostrum ducimus sequi vel ullam eligendi quia vero, eos voluptas quasi est, quis harum ea at doloribus odit laudantium amet libero iure culpa quos impedit nihil! Aliquid iure maiores veniam, itaque cumque voluptatibus laboriosam vitae iste optio doloremque adipisci quasi reprehenderit omnis quas, culpa facere exercitationem tempore quod eveniet veritatis, delectus error maxime. Natus impedit optio placeat incidunt, nesciunt iure! Voluptatibus reiciendis et neque sunt, minus, consequuntur veritatis delectus nisi porro officia suscipit magni maxime officiis reprehenderit quos iure aliquid illum vitae.
+      </p>
+    </section>
+
+    <div class="pimg3">
+      <div class="ptext">
+        <span class="border trans">
+          Image Three Text
+        </span>
+      </div>
+    </div>
+
+    <section class="section section-dark">
+      <h2>Section Three</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, laudantium aliquid! Veritatis nesciunt obcaecati earum. Officiis
+        officia eum nostrum ducimus sequi vel ullam eligendi quia vero, eos voluptas quasi est, quis harum ea at doloribus odit
+        laudantium amet libero iure culpa quos impedit nihil! Aliquid iure maiores veniam, itaque cumque voluptatibus laboriosam
+        vitae iste optio doloremque adipisci quasi reprehenderit omnis quas, culpa facere exercitationem tempore quod eveniet
+        veritatis, delectus error maxime. Natus impedit optio placeat incidunt, nesciunt iure! Voluptatibus reiciendis et neque
+        sunt, minus, consequuntur veritatis delectus nisi porro officia suscipit magni maxime officiis reprehenderit quos iure
+        aliquid illum vitae.
+      </p>
+    </section>
+
+    <div class="pimg1">
+      <div class="ptext">
+        <span class="border">
+          The Spartan Effect
+        </span>
+      </div>
+    </div>
+
+    <script>
+      function openSlideMenu(){
+        document.getElementById('side-menu').style.width = '250px';
+      }
+      function closeSlideMenu() {
+        document.getElementById('side-menu').style.width = '0';
+      }
+    </script>
+  </body>
+</html>
