@@ -10,6 +10,8 @@ html {
     overflow-x: hidden;
 }
 
+/* Navbar */
+
 .navbar {
     background-color: black;
     overflow: hidden;
@@ -27,7 +29,7 @@ html {
 }
 
 .navbar ul {
-    margin: 8px 0 0 0;
+    margin: 0s;
     list-style: none;
 }
 
@@ -71,6 +73,8 @@ html {
     margin-left: 50px;
 }
 
+/* background images */
+
 .pimg1,
 .pimg2,
 .pimg3 {
@@ -97,6 +101,8 @@ html {
     min-height: 400px;
 }
 
+/* Sections */
+
 .section {
     text-align: center;
     padding: 50px 80px;
@@ -111,6 +117,8 @@ html {
     background-color: #282e34;
     color: #ddd;
 }
+
+/* text */
 
 .ptext {
     position: absolute;
@@ -132,6 +140,8 @@ html {
 .ptext .border.trans {
     background-color: transparent;
 }
+
+/* @media */
 
 @media(max-width:568px) {
     .navbar-nav {
